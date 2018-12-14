@@ -282,7 +282,9 @@ font-weight: normal;
 	margin-bottom: 300px;
 }
 @media screen and (max-width: 768px){
-
+body{
+	overflow: hidden;
+}
 	.shape img{
 	float: right;
 	width: 100%;

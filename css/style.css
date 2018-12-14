@@ -8,16 +8,10 @@ img {
       max-width: 100%;
       height: auto;
 }
-.nav-bar a{
-color: black;
-text-decoration: none;}
 /*шапка*/
-.logo{
-	float: left;	
-	font-size: 2.4em;   
-    margin: 0.9em 0;
-	font-style: italic;
-}
+.nav-bar a{
+	color: #333333;
+text-decoration: none;}
 .nav-bar{ 
 	width: 100%;
 	background-color: #cfe5ef;
@@ -25,6 +19,19 @@ text-decoration: none;}
 	font-weight:  bold;
 	font-size: 1.25em;
 	height: auto;
+	color: #333333;
+}
+.logo{
+	float: left;	
+	font-size: 2.4em;   
+    margin: 0.9em 0;
+	font-style: italic;
+}
+.logo a:hover{
+	color: #52359d;
+}
+.logo a:active{
+	color: #333;
 }
 .nav-bar:after{
 	content: "";
@@ -34,10 +41,20 @@ text-decoration: none;}
 }
 .nav-rubrics{ 
 	float: left;
-	 margin: 3em 0 ;
+	 margin: 3em 0;
 	padding-left:  4.39%;
 	padding-right: 1.6%;
 	vertical-align: middle;
+}
+.nav-rubrics a:hover{
+color: #52359d;
+text-decoration: underline;
+text-decoration-color: #6655a8
+}
+.nav-rubrics a:active{
+color: #333;
+text-decoration: underline;
+text-decoration-color: #4f5456
 }
 /*выпадашка*/
 .dropdown:before{
@@ -80,6 +97,16 @@ display: block;
 	float: left;
 	padding-left: 1.44%;
 }
+.nav-contacts a:hover{
+color: #52359d;
+text-decoration: underline;
+text-decoration-color: #6655a8
+}
+.nav-contacts a:active{
+color: #333;
+text-decoration: underline;
+text-decoration-color: #4f5456
+}
 .button {
 	float: right;
 		background: #ffffff;
@@ -87,6 +114,14 @@ display: block;
 	    padding: 23px 25px;
 	     margin: 1.85em 0 ;
 	     font-weight: normal;
+}
+.button:hover{
+background:#52359d;
+color: #ffffff;
+}
+.button:active{
+background:#333333;
+color: #999999;
 }
 .content{
 	margin-left: auto;

@@ -42,11 +42,11 @@ text-decoration: none;}
 /*выпадашка*/
 .dropdown:before{
 	content: "|";
-	margin-right: 17px;
+	margin-right: 1em;
 }
 .dropdown:after{
 	content: "|";
-	margin-left: 17px;
+	margin-left: 0.7em;
 }
 .dropdown{
 	position: relative;
@@ -283,7 +283,7 @@ font-weight: normal;
 }
 @media screen and (max-width: 768px){
 body{
-	overflow: hidden;
+	overflow-x: hidden;
 }
 	.shape img{
 	float: right;

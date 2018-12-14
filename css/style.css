@@ -281,10 +281,8 @@ font-weight: normal;
 .main{
 	margin-bottom: 300px;
 }
-@media screen and (max-width: 780px){
-body{
-	overflow-x: hidden;
-}
+@media only screen and (max-width: 780px){
+
 	.shape img{
 	float: right;
 	width: 100%;
@@ -337,10 +335,6 @@ margin-left: 0em;
 
 font-size: 1rem;
 display: block;
-}
-.mobile-grid-mobile{
-	float: left;
-	width: 100%;
 }
 .logo img{
 	width: 10%;

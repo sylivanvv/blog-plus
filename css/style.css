@@ -302,6 +302,7 @@ font-weight: normal;
 	font-size: 1.5em;
 }
 .content{
+    max-width:100%;
 	width: 75%;
 	min-width: unset;
 }
@@ -374,7 +375,6 @@ display: block;
 	float: left;
 	    padding: 0px 0px;
 	     margin: .5em 0 ;
-
 }
 .dropdown::after{
 	content: "|";

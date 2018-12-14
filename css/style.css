@@ -281,7 +281,7 @@ font-weight: normal;
 .main{
 	margin-bottom: 300px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 780px){
 body{
 	overflow-x: hidden;
 }

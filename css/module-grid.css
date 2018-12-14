@@ -133,7 +133,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
 	.module-grid__cell-12--mobile {
 		width: 100%;
 		float: left;
@@ -182,8 +182,9 @@
 	}
 
 	.module-grid__cell-3--mobile {
+		display: block;
 		float: left;
-		width: 25%;
+		width: 100%;
 	}
 
 	.module-grid__cell-2--mobile {

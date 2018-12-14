@@ -8,7 +8,7 @@ img {
       max-width: 100%;
       height: auto;
 }
-a{
+.nav-bar a{
 color: black;
 text-decoration: none;}
 /*шапка*/
@@ -20,11 +20,11 @@ text-decoration: none;}
 }
 .nav-bar{ 
 	width: 100%;
-	height: 150px;
 	background-color: #cfe5ef;
 	text-align: center;
 	font-weight:  bold;
-	font-size: 20px;
+	font-size: 1.25em;
+	height: auto;
 }
 .nav-bar:after{
 	content: "";
@@ -92,6 +92,7 @@ display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 65.21%;
+	min-width: 790px;
 }
 /*Осноовной контент*/
 .main{
@@ -194,6 +195,7 @@ float: left;
 	overflow: auto;
 }
 .n-text{
+	float: left;
 	font-size: 0.813em;
 	padding-top: 1%; 
 	margin-bottom: 1%;
@@ -202,13 +204,12 @@ float: left;
 }
 .read-more{
 	padding-left: 25%;
-	overflow: auto;
 	float: left;
 	font-size: 0.813em;
 	color: #0000ff;
 	padding-bottom: 5%;
 	text-decoration: underline;
-	text-decoration-color: #dfdfff;  overflow: auto;
+	text-decoration-color: #dfdfff;  
 	display: inline-block;
 			width: 15%;
 }
@@ -241,21 +242,6 @@ margin-right: auto;
 .ramka-img{
 	
 	display: block;
-}
-@media screen and (max-width: 768px){
-	.shape img{
-	float: right;
-	width: 100%;
-	height: 511px;
-	overflow: auto;
-}
-.n-text, .read-more{
-	font-size: 1.5em;
-}
-.news-h{
-	font-size: 2em;
-}
-
 }
 .ramka{
 	max-width: 100%;
@@ -294,4 +280,117 @@ font-weight: normal;
 }
 .main{
 	margin-bottom: 300px;
+}
+@media screen and (max-width: 768px){
+
+	.shape img{
+	float: right;
+	width: 100%;
+	height: 511px;
+	overflow: auto;
+}
+.n-text, .read-more, .news-h{
+	margin-top: 30px;
+	font-size: 1.25em;
+	width: 100%;
+}
+.n-text{
+ float: left;
+	margin-top: 30px; 
+}
+.news-h{
+	font-size: 1.5em;
+}
+.content{
+	width: 75%;
+	min-width: unset;
+}
+.nav-bar{
+	font-size: 1rem;
+}
+.shape img{
+	height: auto;
+}
+.logo{
+	float: left;	
+	font-size: 2.4em;   
+    margin: 0.9em 0;
+	font-style: italic;
+}
+.nav-bar{ 
+	width: 100%;
+	background-color: #cfe5ef;
+	text-align: center;
+	font-weight:  bold;
+	font-size: 1em;
+}
+.nav-bar:after{
+	content: "";
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.name::after{
+margin-left: 0em;
+
+font-size: 1rem;
+display: block;
+}
+.mobile-grid-mobile{
+	float: left;
+	width: 100%;
+}
+.logo img{
+	width: 10%;
+	height: auto;
+}
+.logo{
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;  	
+	margin: 0.5em 0;
+}
+.nav-rubrics{ 
+	width: 100%;
+	text-align: center;
+display: block;
+	 margin: 0.5em 0 ;
+	padding-left:  0%;
+	padding-right: 0%;
+}
+.dropdown{
+	width: 100%;
+  margin: 0.5em 0 ;
+  text-align: center;
+  display: block;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+.button {
+	text-align: center;
+	display: block;
+	width: 100%;
+	float: left;
+	    padding: 0px 0px;
+	     margin: .5em 0 ;
+
+}
+.dropdown::after{
+	content: "|";
+	margin-left: 0.5em;
+}
+.dropdown:before{
+	content: "|";
+	margin-right: 0.5em;
+}
+.nav-contacts{ display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0.5em 0 ;
+	padding-left: 0%;
+}
+.gallery-item{
+	max-width: unset;
+}
 }

@@ -65,11 +65,11 @@ text-decoration: underline;
 text-decoration-color: #4f5456
 }
 /*выпадашка*/
-.dropdown:before{
+.gallery-a:before{
 	content: "|";
 	margin-right: 1em;
 }
-.dropdown:after{
+.gallery-a:after{
 	content: "|";
 	margin-left: 0.7em;
 }
@@ -83,6 +83,10 @@ text-decoration-color: #4f5456
 }
 .dropdown:hover .dropdown-content{
 display: block;
+}
+.nav-ui-kit:before{
+content: "|";
+	margin-right: 0.5em;
 }
 .nav-drop{
 	background-color: #fff;
@@ -98,7 +102,11 @@ display: block;
 	display: none;
 	left: 0;
 	top: 100%;
-	border-radius: 0px 6px 6px 6px;
+	border: 1px solid #ccc;
+	border-radius: 0px 10px 10px 10px;
+}
+.ui-kit .dropdown-content{
+	min-width: 100px;
 }
 .nav-contacts{ 
 	margin: 3em 0 ;

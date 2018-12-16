@@ -8,6 +8,9 @@ img {
       max-width: 100%;
       height: auto;
 }
+input, select, textarea, button{
+	font-family: inherit;
+}
 /*шапка*/
 .nav-bar a{
 	color: #333333;
@@ -33,7 +36,6 @@ text-decoration: none;}
 	font-size: 2.4em;   
     margin: 0.9em 0;
     margin-left: 0%;
-	font-style: italic;
 }
 .logo:hover{
 	background-position: -200px 0;
@@ -332,6 +334,182 @@ font-weight: normal;
 .main{
 	margin-bottom: 300px;
 }
+form{
+	margin-top: 130px;
+	margin-bottom: 200px;
+}
+/*UI-forms*/
+.ui-control{
+	position: relative;
+}
+.ui-control-input, .ui-control-textarea, .ui-control-select{
+	box-sizing: border-box;
+	padding: 12px 14px;
+	line-height: 18px;
+	font-size: 13px;
+	width: 100%;
+	color: #333;
+	background-color: #fff;
+}
+.ui-control-input:focus, .ui-control-textarea:focus, .ui-control-select:focus{
+background-color: #e9f8ff;
+color: #000000;
+}
+.ui-control-textarea{
+	min-height: 170px; 
+	max-height: 500px;
+	resize: vertical;
+}
+.ui-control-select{
+	border: 1px solid #999999;
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  -ms-appearance: none;
+  appearance: none!important;
+  background-image: url(../img/Forma-1-copy-6.png);
+  background-color: #fff;
+   background-position: right 10px center;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+}
+  select::-ms-expand {
+  display: none;
+}
+ .ui-control-input::-moz-placeholder {color: #97a1aa;opacity: 1;}
+  .ui-control-input::-webkit-input-placeholder { color: #97a1aa;opacity: 1; }
+  .ui-control-input:-ms-input-placeholder { color: #97a1aa;opacity: 1; }
+  .ui-control-input::-ms-input-placeholder { color: #97a1aa;opacity: 1; }
+  .ui-control-input::placeholder { color: #97a1aa;opacity: 1; }
+   .ui-control-textarea::-moz-placeholder {color: #97a1aa;opacity: 1;}
+  .ui-control-textarea::-webkit-input-placeholder { color: #97a1aa;opacity: 1; }
+  .ui-control-textarea:-ms-input-placeholder { color: #97a1aa;opacity: 1; }
+  .ui-control-textarea::-ms-input-placeholder { color: #97a1aa;opacity: 1; }
+  .ui-control-textarea::placeholder { color: #97a1aa;opacity: 1; }
+
+  .ui-control-icon{
+position: absolute;
+top: 40px;
+left: 22px;
+width: 24px;
+height: 24px;
+background-image: url(../img/sprite.png);
+background-repeat: no-repeat;
+background-color: transparent;
+pointer-events: none;
+  }
+:focus ~ .input-icon{
+background-position: -24px 0px;
+}
+ .select-icon{
+ 	background-position: 0px -24px;
+ }
+ :focus ~ .select-icon{
+background-position: -24px -24px;
+}
+.txtarea-icon{
+	background-position: 0px -48px;
+}
+:focus ~ .txtarea-icon{
+	background-position: -24px -48px;
+}
+.with-icon{
+	padding-left: 44px; 
+}
+.label{
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 13px
+}
+label{
+	font-size: 13px;
+}
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    margin-right: 1px;
+    vertical-align:middle;
+    background:url(../img/Rounded-Rectangle-3-copy1.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label{
+	margin-left: 0%;
+	color: #52359d;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../img/Rounded-Rectangle-3-copy2.png) left top no-repeat;
+}
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    margin-right: 1px;
+    vertical-align:middle;
+    background:url(../img/Ellipse-1-copy.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label{
+	margin-left: 0%;
+	color: #52359d;
+}
+input[type="radio"]:checked + label span {
+    background:url(../img/Ellipse-1.png) left top no-repeat;
+}
+button{
+	width: 105px;
+	height: 45px;
+	background-color: #fff;
+}
+button:hover{
+	background-color:#52359d;
+	color: white;
+}
+button:active{
+	background-color:#333333;
+	color: #999999;
+}
+.file-upload{
+	display: inline-block;
+background-color: #fff;
+border: 1px solid #999999;
+width: 175px;
+height: 45px;
+text-align: center;
+vertical-align: top;
+line-height: 45px;
+position: relative;
+}
+.file-upload:hover{
+ background-color:#52359d;
+	color: white;
+}
+.file-upload:hover .up-icon{
+ background-position: -24px 0px ;
+}
+.file-upload:active{
+	background-color:#333333;
+	color: #999999;
+}
+.file-upload:focus .up-icon{
+ background-position: -48px 0px ;
+}
+.up-icon{
+	margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background:url(../img/sorite-up.png) no-repeat transparent;
+}
+
 @media only screen and (max-width: 780px){
 
 	.shape img{

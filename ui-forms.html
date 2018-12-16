@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>UI-forms</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/module-grid.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="nav-bar">
+		<div class="nav content">
+			<a href="#">
+				<div class="logo-img logo">&nbsp;</div></a>
+
+			<span class="nav-rubrics"><a href="#rubrics">РУБРИКИ</a></span>
+			<span class="gallery-a dropdown"><a href="#gallery">ГАЛЕРЕЯ</a>
+				<div class="nav-drop dropdown-content">
+					<ul><li><a href="#">lorem ipsum 1</a></li>
+<li><a href="#">lorem ipsum 2</a></li><li><a href="#">lorem ipsum 3</a></li><li><a href="#">lorem ipsum 4</a></li>
+
+					</ul>
+				</div>	</span>
+			<span class="nav-contacts"><a href="#rev">КОНТАКТЫ</a></span>
+			<span class=" nav-ui-kit dropdown"><a href="#">UI-KIT</a>
+				<div class="nav-drop dropdown-content">
+					<ul><li><a href="index.html">ui-kit.html</a></li>
+<li><a href="ui-forms.html">ui-forms.html</a></li>
+
+					</ul>
+				</div>	</span>
+			<a href="#"><div class="button">ВХОД</div></a>
+		</div>
+	</div>
+	<form class="module-grid--gutters-forms content forms">
+		<div class="ui-control module-grid__cell-6">
+			<div class="label">Lorem ipsum</div>
+			<input type="text" class="ui-control-input" placeholder="Input text placeholder">
+		</div>
+		<div class="ui-control module-grid__cell-6">
+			<div class="label">Lorem ipsum</div>
+			<input type="text" class="ui-control-input with-icon input-icon" placeholder="Input text placeholder">
+			<div class="ui-control-icon input-icon"></div>
+		</div>
+			<div class="ui-control module-grid__cell-6">
+				<div class="label">Lorem ipsum</div>
+			<select  class="ui-control-select">
+				<option value="1">Lorem ipsum dolor sit amet 1.</option>
+				<option value="2">Lorem ipsum dolor sit amet 2.</option>
+				<option value="3">Lorem ipsum dolor sit amet 3.</option>
+				<option value="4">Lorem ipsum dolor sit amet 4.</option>
+			</select>
+		</div>
+		<div class="ui-control module-grid__cell-6">
+			<div class="label">Lorem ipsum</div>
+			<select  class="ui-control-select with-icon">
+				<option value="1">Lorem ipsum dolor sit amet 1.</option>
+				<option value="2">Lorem ipsum dolor sit amet 2.</option>
+				<option value="3">Lorem ipsum dolor sit amet 3.</option>
+				<option value="4">Lorem ipsum dolor sit amet 4.</option>
+			</select>
+			<div class="ui-control-icon select-icon"></div>
+		</div>
+				<div class="ui-control module-grid__cell-6">
+					<div class="label">Lorem ipsum</div>
+			<input type="checkbox" id="c1">
+			<label for="c1"><span></span>Lorem ipsum dolor</label>
+			<input type="checkbox" id="c2">
+			<label for="c2"><span></span>Lorem ipsum dolor</label>
+			<input type="checkbox" id="c3">
+			<label for="c3"><span></span>Lorem ipsum dolor</label>
+		</div>
+		<div class="ui-control module-grid__cell-6">
+			<div class="label">Lorem ipsum</div>
+			<input type="radio" name="lorem" value="v1" id="v1">
+			<label for="v1"><span></span>Lorem ipsum dolor</label>
+			<input type="radio" name="lorem" value="v2" id="v2">
+			<label for="v2"><span></span>Lorem ipsum dolor</label>
+			<input type="radio" name="lorem" value="v3" id="v3">
+			<label for="v3"><span></span>Lorem ipsum dolor</label>
+		</div>
+		<div class="ui-control module-grid__cell-6">
+			<div class="label">Lorem ipsum</div>
+			<textarea rows="10" cols="45" class="ui-control-textarea" placeholder="Textarea placeholder"></textarea>
+		</div>
+		<div class="ui-control module-grid__cell-6 with-icon">
+			<div class="label">Lorem ipsum</div>
+			<textarea rows="10" cols="45" class="ui-control-textarea with-icon" placeholder="Textarea placeholder"></textarea>
+			<div class="ui-control-icon txtarea-icon"></div>
+		</div>
+		<button type= "submit">SUBMIT</button>
+		<button type= "reset">RESET</button>
+		<button type= "button">BUTTON</button>
+		 <label class="file-upload">
+		 	<span class="up-icon"></span>
+        <span class="button-UP">UPLOAD FILE</span>
+        <input type="file" hidden>
+    </label>
+		
+	</form>
+</body>
+</html>

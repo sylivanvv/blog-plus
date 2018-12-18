@@ -591,6 +591,9 @@ position: relative;
 	height: 0px;
 	clear: both;
 }
+.review-img{
+	display: block;
+}
 .name{
 	display: block;
 	margin-left: 0px;

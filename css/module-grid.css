@@ -35,7 +35,10 @@
 	float: left;
 	width: 58.33334%
 }
-
+.module-grid__cell-7-shape{
+		float: right;
+	width: 58.33334%
+}
 .module-grid__cell-6 {
 	float: left;
 	width: 50%;
@@ -167,12 +170,12 @@
 
 	.module-grid__cell-6--mobile {
 		float: left;
-		width: 50%;
+		width: 100%;
 	}
 
 	.module-grid__cell-5--mobile {
 		float: left;
-		width: 41.66667%
+		width: 100%
 	}
 
 

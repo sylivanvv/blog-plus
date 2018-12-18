@@ -11,6 +11,7 @@ img {
 input, select, textarea, button{
 	font-family: inherit;
 }
+
 /*шапка*/
 .nav-bar a{
 	color: #333333;
@@ -104,7 +105,7 @@ content: "|";
 	display: none;
 	left: 0;
 	top: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #e0e0e0;
 	border-radius: 0px 10px 10px 10px;
 }
 .ui-kit .dropdown-content{
@@ -184,10 +185,8 @@ color: #999999;
 	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 35px;
-
-
 }
-.review img{
+.review-img{
 	float: left;
 width: 200px;
 height: 200px;
@@ -201,15 +200,22 @@ height: 200px;
 }
 .name{
 	margin-left: 20px;
-	padding-top: 15px;
+	margin-top: 15px;
 	font-size: 20px;
 	font-weight: bold;
 	display: inline-block;
 }
-.name::after{
-	
-content: "📅 11 февраля 2016";
-margin-left: 35px;
+.name-calendar{
+	display: inline-block;
+	margin-left: 36px;
+}
+.name-calendar img{
+	width: 16px;
+	height: 20px;
+vertical-align: middle;
+}
+.name-text{
+margin-left: 10px;
 color:#6e6e6e;
 font-weight: normal;
 font-size: 1rem;
@@ -219,7 +225,7 @@ font-size: 1rem;
 	font-size: 1rem;
 	color: #797979;
 	display: block;
-    margin-top: 2.50em;
+    margin-top: 2.1em;
     overflow: auto;
 
 }
@@ -230,6 +236,7 @@ hr{
 	margin-top: 100px;
 }
 .n-container{
+	width: 100%;
 	margin-top: 33px;
 }
 .n-container::after{
@@ -241,35 +248,42 @@ hr{
 .news{
 	color: #797979;
 }
-.news-h{
-font-size: 1.125em;
-float: left;  
-	width: 35%;
-	overflow: auto;
+.n-first{
+	width: 47%;
+}
+.n-second{
+	margin-top: -3%;
+	width: 47%;
 }
 .n-text{
 	float: left;
 	font-size: 0.813em;
-	padding-top: 1%; 
-	margin-bottom: 1%;
-	width: 40%;
+	padding-top: 3%; 
+	margin-bottom: 0.4%;
 	overflow: auto;
 }
 .read-more{
-	padding-left: 25%;
 	float: left;
-	font-size: 0.813em;
+	padding-left: 65%;
 	color: #0000ff;
-	padding-bottom: 5%;
+	padding-bottom: 1rem;
 	text-decoration: underline;
 	text-decoration-color: #dfdfff;  
 	display: inline-block;
-			width: 15%;
 }
 .shape img{
-	float: right;
-	width: 53%;
-	height: 511px;
+width: 100%;
+height: auto;
+margin-left: 10%;
+}
+.n-text, .read-more{
+	margin-top: 0.7rem;
+	font-size: 0.813em;
+	width: 100%;
+}
+.news-h{
+	font-size: 1em;
+	width: 100%;
 	overflow: auto;
 }
 .h-gallery{
@@ -293,7 +307,6 @@ margin-right: auto;
 	display: block;
 }
 .ramka-img{
-	
 	display: block;
 }
 .ramka{
@@ -334,11 +347,11 @@ font-weight: normal;
 .main{
 	margin-bottom: 300px;
 }
+/* forms style*/
 form{
 	margin-top: 130px;
 	margin-bottom: 200px;
 }
-/*UI-forms*/
 .ui-control{
 	position: relative;
 }
@@ -509,7 +522,14 @@ position: relative;
 	height: 24px;
 	background:url(../img/sorite-up.png) no-repeat transparent;
 }
-
+.form-list{
+	list-style: none;
+	padding: 0px;
+}
+.form-list li{
+	display: inline;
+	padding-right: 1%;
+}
 @media only screen and (max-width: 780px){
 
 	.shape img{
@@ -540,6 +560,13 @@ position: relative;
 .shape img{
 	height: auto;
 }
+.ui-control-icon{
+	    top: 45px;
+	        left: 10px;
+}
+.with-icon {
+    padding-left: 33px;
+}
 .read-more{
 	padding-left: 15%;
 }
@@ -562,13 +589,17 @@ position: relative;
 	height: 0px;
 	clear: both;
 }
-.name::after{
-margin-left: 0em;
-
-font-size: 1rem;
-display: block;
+.name{
+	display: block;
+	margin-left: 0px;
 }
-
+.name-calendar{
+	margin-left: 0px;
+}
+.text{
+padding-left: 0px;
+font-size: 1.2rem;
+}
 .logo{
 	display: block;
 	text-align: center;
@@ -617,4 +648,19 @@ display: block;
 .gallery-item{
 	max-width: unset;
 }
+/*form style*/
+.form-container{
+	margin-top: 40px;
+}
+.label{
+	font-size: 1.2em;
+}
+.form-list li{
+	display: block;
+	padding-right: 0%;
+}
+.form-button{
+	display: block;
+}
+
 }

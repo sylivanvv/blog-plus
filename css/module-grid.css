@@ -145,7 +145,11 @@
 		width: 100%;
 		float: left;
 	}
-
+.module-grid__cell-7-shape{
+		float: right;
+	width: 100%;
+	height: unset;
+}
 	.module-grid__cell-11--mobile {
 		float: left;
 		width: 91.66667%
@@ -204,6 +208,10 @@
 		float: left;
 		width: 8.33334%
 	}
+	.module-grid__cell-5-news{
+	width: 100%;
+	height: unset;
+}
 }
 
 

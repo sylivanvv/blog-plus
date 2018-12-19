@@ -253,13 +253,6 @@ hr{
 .news{
 	color: #797979;
 }
-.n-first{
-	width: 47%;
-}
-.n-second{
-	margin-top: -3%;
-	width: 47%;
-}
 .n-text{
 	float: left;
 	font-size: 0.813em;
@@ -277,9 +270,7 @@ hr{
 	display: inline-block;
 }
 .shape img{
-width: 100%;
-height: auto;
-margin-left: 10%;
+	float: right;
 }
 .n-text, .read-more{
 	margin-top: 0.7rem;
@@ -289,7 +280,6 @@ margin-left: 10%;
 .news-h{
 	font-size: 1em;
 	width: 100%;
-	overflow: auto;
 }
 .h-gallery{
 	display: block;

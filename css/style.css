@@ -542,6 +542,8 @@ position: relative;
 	font-size: 1.25em;
 	width: 100%;
 }
+	.module-grid__cell-5-news{
+	width: 100%;}
 .n-text{
  float: left;
 	margin-top: 30px; 

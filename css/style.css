@@ -214,6 +214,35 @@ height: 200px;
 	display: inline-block;
 	margin-left: 36px;
 }
+.shape{
+	padding-top: 0%;
+	position: relative;
+}
+.news-col{
+	padding-top: 30%;
+	position: relative;
+}
+.n-first{
+	position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 50%;
+}
+.n-second{
+		position: absolute;
+top: 5;
+left: 0;
+width: 100%;
+height: 50%;
+}
+.ratio-element{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
 .name-calendar img{
 	width: 16px;
 	height: 20px;

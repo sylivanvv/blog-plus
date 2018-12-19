@@ -276,11 +276,6 @@ hr{
 	text-decoration-color: #dfdfff;  
 	display: inline-block;
 }
-.shape img{
-width: 100%;
-height: auto;
-margin-left: 10%;
-}
 .n-text, .read-more{
 	margin-top: 0.7rem;
 	font-size: 0.813em;
